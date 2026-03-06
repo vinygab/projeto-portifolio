@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
 
 import { Footer } from '@/components/layout/footer';
 import { Header } from '@/components/layout/header';
@@ -6,6 +7,11 @@ import { ThemeProvider } from '@/components/theme-provider';
 import { getSiteData } from '@/lib/content';
 
 import './globals.css';
+
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
+});
 
 export async function generateMetadata(): Promise<Metadata> {
   const site = await getSiteData();
@@ -34,7 +40,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" suppressHydrationWarning>
-      <body className="bg-background text-foreground font-sans antialiased">
+      <body
+        className={`${inter.variable} bg-background text-foreground font-sans antialiased`}
+      >
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
