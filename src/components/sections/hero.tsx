@@ -4,6 +4,7 @@ import { ArrowRight } from 'lucide-react';
 import { Container } from '@/components/layout/container';
 import { Button } from '@/components/ui/button';
 import { TextType } from '@/components/ui/text-type';
+import { ParticlesBackground } from '@/components/ui/particles-background';
 import { getSiteData } from '@/lib/content';
 
 export async function HeroSection() {
@@ -11,7 +12,8 @@ export async function HeroSection() {
 
   return (
     <section className="relative overflow-hidden py-20 sm:py-24">
-      <Container className="space-y-8">
+      <ParticlesBackground />
+      <Container className="relative z-10 space-y-8">
         <div className="max-w-3xl space-y-5">
           <TextType
             text={["Vinícius Oliveira", "Software Engineer"]}
