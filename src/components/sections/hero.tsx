@@ -1,0 +1,37 @@
+import Link from 'next/link';
+import { ArrowRight } from 'lucide-react';
+
+import { Container } from '@/components/layout/container';
+import { Button } from '@/components/ui/button';
+import { getSiteData } from '@/lib/content';
+
+export async function HeroSection() {
+  const site = await getSiteData();
+
+  return (
+    <section className="relative overflow-hidden py-20 sm:py-24">
+      <Container className="space-y-8">
+        <div className="border-border bg-background/70 text-muted-foreground inline-flex rounded-full border px-4 py-1 text-sm">
+          Disponível para projetos freelance e posições full-time remotas
+        </div>
+        <div className="max-w-3xl space-y-5">
+          <h1 className="text-4xl font-semibold tracking-tight sm:text-6xl">
+            {site.headline}
+          </h1>
+          <p className="text-muted-foreground text-lg">{site.bio}</p>
+        </div>
+        <div className="flex flex-wrap gap-3">
+          <Button asChild size="lg">
+            <Link href="/projects">
+              Ver Projetos
+              <ArrowRight className="size-4" />
+            </Link>
+          </Button>
+          <Button asChild variant="outline" size="lg">
+            <Link href="/contact">Contato</Link>
+          </Button>
+        </div>
+      </Container>
+    </section>
+  );
+}
