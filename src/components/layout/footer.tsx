@@ -30,14 +30,6 @@ export async function Footer() {
           >
             LinkedIn
           </Link>
-          <Link
-            href={site.socials.x}
-            target="_blank"
-            rel="noreferrer"
-            aria-label="X/Twitter"
-          >
-            X
-          </Link>
         </div>
       </Container>
     </footer>
