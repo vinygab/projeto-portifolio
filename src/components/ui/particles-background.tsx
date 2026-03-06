@@ -1,11 +1,11 @@
 'use client';
 
-import { Particles } from '@/components/Particles';
+import Particles from '@/components/Particles';
 
 export function ParticlesBackground() {
   return (
-    <div className="absolute inset-0 overflow-hidden">
-      <div style={{ width: '100%', height: '100%', position: 'relative' }}>
+    <div className="fixed inset-0 overflow-hidden pointer-events-none -z-10">
+      <div style={{ width: '100%', height: '100vh', position: 'relative' }}>
         <Particles
           particleCount={200}
           particleSpread={10}
