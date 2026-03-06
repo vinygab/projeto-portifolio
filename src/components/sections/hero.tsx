@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ArrowRight } from 'lucide-react';
+import { Check } from 'lucide-react';
 
 import { Container } from '@/components/layout/container';
 import { Button } from '@/components/ui/button';
@@ -34,7 +34,7 @@ export async function HeroSection() {
             <Button asChild size="lg">
               <Link href="/projects">
                 Ver Projetos
-                <ArrowRight className="size-4" />
+                <Check className="size-4" />
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg">
