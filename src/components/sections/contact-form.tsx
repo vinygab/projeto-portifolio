@@ -29,7 +29,7 @@ export function ContactForm() {
   }, [formData]);
 
   const hasErrors = Object.keys(errors).length > 0;
-  const mailtoHref = `mailto:hello@portfolio.dev?subject=${encodeURIComponent(`Contato via portfólio de ${formData.name}`)}&body=${encodeURIComponent(formData.message + `\n\nEmail para resposta: ${formData.email}`)}`;
+  const mailtoHref = `mailto:viniciusoliveiradev2@gmail.com?subject=${encodeURIComponent(`Contato via portfólio de ${formData.name}`)}&body=${encodeURIComponent(formData.message + `\n\nEmail para resposta: ${formData.email}`)}`;
 
   function updateField(field: keyof typeof initialState, value: string) {
     setFormData((previous) => ({ ...previous, [field]: value }));

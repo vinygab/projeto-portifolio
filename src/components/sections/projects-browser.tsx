@@ -36,9 +36,11 @@ export function ProjectsBrowser({
 
   return (
     <div className="space-y-6">
-      <div className="grid gap-4 lg:grid-cols-[1fr_auto]">
+      <div className="flex flex-col gap-4">
         <SearchInput value={query} onChange={setQuery} />
-        <TagFilter tags={tags} activeTag={activeTag} onChange={setActiveTag} />
+        <div className="flex flex-wrap gap-2">
+          <TagFilter tags={tags} activeTag={activeTag} onChange={setActiveTag} />
+        </div>
       </div>
       <div className="grid gap-5 md:grid-cols-2">
         {filteredProjects.map((project, index) => (

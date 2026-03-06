@@ -19,7 +19,7 @@ export function Header() {
           href="/"
           className="shrink-0 text-sm font-semibold tracking-tight"
         >
-          AM.
+          VO.
         </Link>
         <nav
           aria-label="Navegação principal"

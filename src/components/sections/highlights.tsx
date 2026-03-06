@@ -1,6 +1,8 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import { useEffect, useState } from 'react';
+import { usePathname } from 'next/navigation';
 
 import { Container } from '@/components/layout/container';
 import { SectionHeading } from '@/components/shared/section-heading';
@@ -30,8 +32,19 @@ const highlights = [
 ];
 
 export function HighlightsSection() {
+  const pathname = usePathname();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return null;
+  }
+
   return (
-    <section className="py-16">
+    <section key={pathname} className="py-16">
       <Container className="space-y-8">
         <SectionHeading title="Entrego interfaces premium com foco no negócio" />
         <div className="grid gap-4 sm:grid-cols-2">
@@ -39,8 +52,7 @@ export function HighlightsSection() {
             <motion.div
               key={highlight.title}
               initial={{ opacity: 0, y: 16 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-80px' }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.08, duration: 0.35 }}
             >
               <Card className="border-border/70 h-full">

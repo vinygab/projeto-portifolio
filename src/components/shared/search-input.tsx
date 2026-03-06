@@ -10,15 +10,15 @@ export function SearchInput({
   onChange: (value: string) => void;
 }) {
   return (
-    <label className="relative block">
+    <div className="relative w-full">
       <span className="sr-only">Buscar projetos</span>
-      <Search className="text-muted-foreground pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2" />
+      <Search className="text-muted-foreground pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2" />
       <Input
         placeholder="Buscar por nome, stack ou resumo"
         value={value}
         onChange={(event) => onChange(event.target.value)}
-        className="pl-9"
+        className="pl-10"
       />
-    </label>
+    </div>
   );
 }
