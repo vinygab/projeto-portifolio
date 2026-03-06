@@ -1,0 +1,32 @@
+[
+  {
+    "company": "Northstar Labs",
+    "title": "Lead Frontend Engineer",
+    "period": "2023 — Present",
+    "bullets": [
+      "Led migration to Next.js App Router and component-driven architecture across core product surfaces.",
+      "Improved Core Web Vitals by introducing route-level code splitting and image optimization guidelines.",
+      "Mentored frontend engineers and formalized UI review checklists for accessibility and consistency."
+    ]
+  },
+  {
+    "company": "Brisk Digital",
+    "title": "Senior Product Engineer",
+    "period": "2021 — 2023",
+    "bullets": [
+      "Delivered high-converting product landing pages and onboarding journeys for B2B and fintech clients.",
+      "Built reusable component libraries to accelerate campaign experimentation and team velocity.",
+      "Partnered with design and marketing to align storytelling with measurable conversion goals."
+    ]
+  },
+  {
+    "company": "Studio Vertex",
+    "title": "Frontend Developer",
+    "period": "2019 — 2021",
+    "bullets": [
+      "Developed responsive websites and internal tools with strong focus on semantic HTML and clean CSS.",
+      "Introduced testing and linting workflows that reduced regressions during rapid delivery cycles.",
+      "Collaborated with backend teams to integrate APIs and improve error handling across user journeys."
+    ]
+  }
+]

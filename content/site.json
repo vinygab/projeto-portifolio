@@ -1,0 +1,13 @@
+{
+  "name": "Alex Morgan",
+  "headline": "Frontend Engineer creating polished digital products",
+  "bio": "I design and build accessible, high-performance web experiences focused on clarity, conversion, and delightful interaction. Over the last years, I have helped startups and product teams ship modern interfaces that are easy to maintain and scale.",
+  "location": "Remote • LATAM",
+  "email": "hello@portfolio.dev",
+  "socials": {
+    "github": "https://github.com",
+    "linkedin": "https://linkedin.com",
+    "x": "https://x.com",
+    "dribbble": "https://dribbble.com"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "categories": {
+    "frontend": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Accessibility"
+    ],
+    "backend": [
+      "Node.js",
+      "REST APIs",
+      "PostgreSQL",
+      "Prisma",
+      "Authentication"
+    ],
+    "tools": [
+      "GitHub Actions",
+      "Vercel",
+      "Figma",
+      "Storybook",
+      "Jest",
+      "Playwright"
+    ]
+  }
+}
