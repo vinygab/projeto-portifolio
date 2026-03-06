@@ -30,6 +30,7 @@ export type SiteData = {
   name: string;
   headline: string;
   bio: string;
+  aboutDescription?: string;
   location: string;
   email: string;
   socials: {

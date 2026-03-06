@@ -20,12 +20,12 @@ export default async function AboutPage() {
         <SectionHeading
           eyebrow="Sobre"
           title="Construo produtos digitais com padrão premium"
-          description={site.bio}
+          description={site.aboutDescription}
         />
         <div className="grid gap-8 lg:grid-cols-[280px_1fr]">
           <div className="border-border/70 relative aspect-square overflow-hidden rounded-2xl border">
             <Image
-              src="/minhafoto.png"
+              src="/minhafoto.jpeg"
               alt="Foto de perfil de Vinícius Oliveira"
               fill
               className="object-cover"

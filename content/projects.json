@@ -1,69 +1,32 @@
 [
   {
-    "slug": "saas-analytics-suite",
-    "title": "SaaS Analytics Suite",
-    "summary": "Dashboard platform for subscription and usage intelligence.",
-    "description": "Led the frontend architecture for a modular analytics dashboard with live charts, role-based access, and highly configurable reporting widgets. Optimized performance budgets and improved loading speed across key flows.",
-    "role": "Lead Frontend Engineer",
-    "year": "2025",
-    "stack": [
-      "Next.js",
-      "TypeScript",
-      "Tailwind CSS",
-      "Recharts",
-      "PostgreSQL"
-    ],
-    "tags": ["SaaS", "Dashboard", "Performance"],
+    "slug": "gamemaker-game",
+    "title": "Game Development Project",
+    "summary": "Jogo em desenvolvimento utilizando GameMaker.",
+    "description": "Este é meu primeiro projeto de jogo, atualmente em desenvolvimento. Iniciei este projeto recentemente com o objetivo de aprender mais sobre desenvolvimento de jogos e aprofundar meus conhecimentos na engine que estou utilizando. Ainda está em estágio inicial e longe de sua versão final, mas faz parte do meu processo de estudo e evolução como desenvolvedor. Ao longo do tempo, pretendo continuar aprimorando o projeto, adicionando novas mecânicas, melhorias visuais e expandindo suas funcionalidades.",
+    "role": "Game Developer",
+    "year": "2026",
+    "stack": ["GameMaker", "GML"],
+    "tags": ["Game Development", "GameMaker"],
     "links": {
-      "github": "https://github.com",
-      "demo": "https://example.com"
+      "github": ""
     },
     "featured": true,
-    "coverImage": "/placeholders/project-analytics.svg"
+    "coverImage": "/placeholders/gamemaker.jpeg"
   },
   {
-    "slug": "fintech-onboarding-flow",
-    "title": "Fintech Onboarding Flow",
-    "summary": "Conversion-focused onboarding experience for a digital banking app.",
-    "description": "Designed and implemented a multi-step onboarding journey with identity checks, progress persistence, and clear validation feedback. Reduced drop-off in critical steps and increased approved account completion.",
-    "role": "Product Engineer",
-    "year": "2024",
-    "stack": ["Next.js", "React Hook Form", "Zod", "Framer Motion"],
-    "tags": ["Fintech", "UX", "Forms"],
+    "slug": "shelflife-app",
+    "title": "ShelfLife",
+    "summary": "Projeto de um app com meus colegas da universidade.",
+    "description": "Este projeto foi desenvolvido em conjunto com colegas da universidade e está atualmente na fase de concepção e planejamento.",
+    "role": "Full Stack Developer",
+    "year": "2026",
+    "stack": ["Figma"],
+    "tags": ["App", "Development"],
     "links": {
-      "demo": "https://example.com"
+      "github": ""
     },
     "featured": true,
-    "coverImage": "/placeholders/project-fintech.svg"
-  },
-  {
-    "slug": "headless-commerce",
-    "title": "Headless Commerce Storefront",
-    "summary": "Composable e-commerce storefront with fast product discovery.",
-    "description": "Built a storefront with instant search, filtering, and a streamlined cart experience. Implemented design tokens and reusable components to speed up experimentation and campaign launches.",
-    "role": "Senior Frontend Developer",
-    "year": "2023",
-    "stack": ["Next.js", "TypeScript", "Tailwind CSS", "Stripe"],
-    "tags": ["E-commerce", "UI", "Search"],
-    "links": {
-      "github": "https://github.com"
-    },
-    "featured": false,
-    "coverImage": "/placeholders/project-commerce.svg"
-  },
-  {
-    "slug": "healthcare-patient-portal",
-    "title": "Healthcare Patient Portal",
-    "summary": "Secure portal experience for appointments and records.",
-    "description": "Shipped a privacy-aware portal for appointment booking, secure document sharing, and messaging with care providers. Focused on accessibility and robust feedback states for patients of all profiles.",
-    "role": "Frontend Engineer",
-    "year": "2022",
-    "stack": ["React", "TypeScript", "Storybook", "Jest"],
-    "tags": ["Healthcare", "Accessibility", "Security"],
-    "links": {
-      "demo": "https://example.com"
-    },
-    "featured": false,
-    "coverImage": "/placeholders/project-health.svg"
+    "coverImage": "/placeholders/ShelfLife.jpeg"
   }
 ]

@@ -1,27 +1,22 @@
 {
   "categories": {
-    "frontend": [
-      "Next.js",
-      "React",
-      "TypeScript",
-      "Tailwind CSS",
-      "Framer Motion",
-      "Accessibility"
+    "Frontend": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript"
     ],
-    "backend": [
-      "Node.js",
-      "REST APIs",
+    "Backend": [
+      "Python"
+    ],
+    "Banco de Dados": [
+      "MySQL",
       "PostgreSQL",
-      "Prisma",
-      "Authentication"
+      "SQLite"
     ],
-    "tools": [
-      "GitHub Actions",
-      "Vercel",
-      "Figma",
-      "Storybook",
-      "Jest",
-      "Playwright"
+    "Ferramentas": [
+      "Git / GitHub",
+      "Figma"
     ]
   }
 }

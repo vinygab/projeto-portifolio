@@ -1,4 +1,4 @@
-import { ExperienceSection } from '@/components/sections/experience';
+import { SkillsSection } from '@/components/sections/skills';
 import { FeaturedProjectsSection } from '@/components/sections/featured-projects';
 import { FinalCtaSection } from '@/components/sections/final-cta';
 import { HeroSection } from '@/components/sections/hero';
@@ -9,8 +9,8 @@ export default function Home() {
     <>
       <HeroSection />
       <HighlightsSection />
+      <SkillsSection />
       <FeaturedProjectsSection />
-      <ExperienceSection />
       <FinalCtaSection />
     </>
   );
