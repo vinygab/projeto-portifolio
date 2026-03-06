@@ -12,9 +12,6 @@ export async function HeroSection() {
   return (
     <section className="relative overflow-hidden py-20 sm:py-24">
       <Container className="space-y-8">
-        <div className="border-border bg-background/70 text-muted-foreground inline-flex rounded-full border px-4 py-1 text-sm">
-          Disponível para projetos freelance e posições full-time remotas
-        </div>
         <div className="max-w-3xl space-y-5">
           <TextType
             text={["Vinícius Oliveira", "Software Engineer"]}
